@@ -4,7 +4,7 @@ from dash.dependencies import Input, Output, State
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
-
+server = app.server
 # Define the layout of the app
 app.layout = html.Div([
     html.H1("Hey Dohtuuur", style={'text-align': 'center', 'font-size': 60, 'background-color':'darkblue', 'color': 'white' }),
